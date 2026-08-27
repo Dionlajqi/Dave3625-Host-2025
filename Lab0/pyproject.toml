@@ -1,0 +1,20 @@
+[project]
+name = "lab0"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Dionlajqi", email = "dilaj9741@oslomet.no" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+]
+
+[project.scripts]
+lab0 = "lab0:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
