@@ -1,0 +1,16 @@
+[project]
+name = "mandatory-assignments"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "matplot>=0.1.9",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "sckit>=0.0.5",
+    "seaborn>=0.13.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "MA2",
+]
